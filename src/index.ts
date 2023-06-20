@@ -7,7 +7,7 @@ import { parseCookies } from './utils/parseCookie';
 const PORT = process.env.PORT || 3000;
 
 /*
- * 1. Create an http server using node's http module and pass the express app as a request handler
+ * 1. Create an http server using node's http module and pass the express app as a request handler.
  */
 const server = createServer(app);
 
