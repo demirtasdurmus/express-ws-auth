@@ -1,0 +1,30 @@
+body {
+    background-color: #1a1c1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doc_title {
+    color: red;
+}
+
+.send_button {
+    padding: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.send_button:hover {
+    background-color: #ccc;
+}
+
+.message {
+    margin: 5px;
+    padding: 5px 30px;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Test Document</title>
+    </head>
+    <body>
+        <div id="root">
+            <h1 class="doc_title">Public Content Test: Red if stylesheet applied</h1>
+            <div>
+                <h1>Choose an action.</h1>
+                <button id="login" type="button" title="Simulate login">Simulate login</button>
+                <button id="checkAuth" type="button" title="Check Auth">Check Auth</button>
+                <button id="logout" type="button" title="Simulate logout">Simulate logout</button>
+                <button id="wsButton" type="button" title="Open WebSocket connection">Open WebSocket connection</button>
+                <button id="wsSendButton" type="button" title="Send WebSocket message">Send WebSocket message</button>
+                <pre id="messages" style="height: 500px; overflow: scroll"></pre>
+            </div>
+        </div>
+        <script src="/js/main.js"></script>
+    </body>
+</html>
